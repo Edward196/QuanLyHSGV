@@ -32,7 +32,7 @@ namespace QuanLyGVHSTHPT
 
         private void hướngDẫnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, System.IO.Path.Combine("...\\Huongdan.htm"));
+            Help.ShowHelp(this, System.IO.Path.Combine(Application.StartupPath, "Huongdan.htm"));
         }
     }
 }
